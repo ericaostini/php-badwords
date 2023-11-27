@@ -2,7 +2,9 @@
 
 $paragrafo = $_GET["paragraph"];
 $badWord = $_GET["censure"];
-echo ("$paragrafo $badWord");
+// echo ("$paragrafo $badWord");
+echo  "Paragrafo: " . $paragrafo . "<br />" . "Parola da censurare: " . $badWord;
+echo "<br />" . "Lunghezza paragrafo: ". strlen($paragrafo);
 ?>
 
 <!DOCTYPE html>
