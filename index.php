@@ -8,9 +8,9 @@
 <body>
     <h1>Bad Word</h1>
     <form action="word.php" method="GET">
-        <input type="text" name="">
-        <input type="text" name="">
+        <input type="text" name="paragraph">
+        <input type="text" name="censure">
         <button>Invia</button>
-    </form>
+    </form>  
 </body>
 </html>
