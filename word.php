@@ -1,10 +1,11 @@
 <?php
-
 $paragrafo = $_GET["paragraph"];
 $badWord = $_GET["censure"];
-echo  "Paragrafo: " . $paragrafo . "<br />" . "Parola da censurare: " . $badWord;
-echo "<br />" . "Lunghezza paragrafo: ". strlen($paragrafo);
+echo "<br />" . "Paragrafo: " . $paragrafo . "<br />" . "Parola da censurare: " . $badWord;
+echo "<br />" . "Numero caratteri nel paragrafo: ". strlen($paragrafo);
 echo "<br />" . "Paragrafo censurato: ". str_replace($badWord, "***", $paragrafo);
+$paragrafoArray = explode(" ", $paragrafo);
+echo "<br />" . "Numero di parole nel paragrafo: ". count($paragrafoArray);
 ?>
 
 <!DOCTYPE html>
