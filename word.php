@@ -1,3 +1,7 @@
+<?php
+$paragrafo = ""
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

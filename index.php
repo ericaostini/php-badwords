@@ -6,6 +6,11 @@
     <title>File word</title>
 </head>
 <body>
-    
+    <h1>Bad Word</h1>
+    <form action="word.php" method="GET">
+        <input type="text" name="">
+        <input type="text" name="">
+        <button>Invia</button>
+    </form>
 </body>
 </html>
